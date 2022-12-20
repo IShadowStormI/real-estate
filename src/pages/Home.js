@@ -1,3 +1,10 @@
 export const Home = () => {
-    return <h1>Welcome to my page </h1>
+    return (
+        <>
+            <header></header>
+            <section id="why-choose-us"></section>
+            <section id="browse-homes"></section>
+            <footer id="contact"></footer>
+        </>
+    )
 }
